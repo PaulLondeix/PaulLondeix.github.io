@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <!-- v18852 -->
+
+  <title>Centre d�aide de la plateforme mobile learning Teach on Mars</title>
+
+  <style>
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Set a style for the submit/send button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.cancel {
+  background-color: #e10600;
+}
+
+/* Add some hover effects to buttons */
+.btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="" />
+
+  <link rel="canonical" href="https://support.teachonmars.com/hc/fr" />
+<link rel="alternate" hreflang="en" href="https://support.teachonmars.com/hc/en-us" />
+<link rel="alternate" hreflang="fr" href="https://support.teachonmars.com/hc/fr" />
+
+  <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/application-ebbf4a70487f9466c9be47bf4b6055f6.css" id="stylesheet" />
+    <!-- Entypo pictograms by Daniel Bruce � www.entypo.com -->
+    <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/theming_v1_support-7eacdab8920220a42cfc91404f4ed182.css" />
+  <link rel="stylesheet" type="text/css" href="//p20.zdassets.com/hc/theming_assets/301558/2757126/style.css?digest=360553180672" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="//theme.zdassets.com/theme_assets/301558/9240771f0e99b129805218ee9f45ce177ffb7b1e.png" />
+
+    <script src="//static.zdassets.com/hc/assets/jquery-d5395f0b7ac5027403fc17855c46dbfc.js"></script>
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-36436340-3', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+  <script type="text/javascript" src="//p20.zdassets.com/hc/theming_assets/301558/2757126/script.js?digest=360553180672"></script>
+<script async src='/cdn-cgi/bm/cv/2172558837/api.js'></script></head>
+<body class="community-enabled">
+
+  <button class="open-button" id="open-button" onclick="openForm()">Chatter</button>
+
+  <div class="chat-popup" id="myForm">
+      <iframe src='https://webchat.botframework.com/embed/test-tom-bot-fr-bot?s=mInUP02qIjU.gA2y0sAZsm17faLRTeE67NeNbQprAGeqpdPRFgxz5Vw'
+          style='min-width: 400px; width: 100%; min-height: 580px;'></iframe>
+      <button type="button" class="btn cancel" onclick="closeForm()">Fermer</button>
+  </div>
+
+  <script>
+      function openForm() {
+          document.getElementById("myForm").style.display = "block";
+          document.getElementById("open-button").style.display = "none";
+      }
+
+      function closeForm() {
+          document.getElementById("myForm").style.display = "none";
+          document.getElementById("open-button").style.display = "block";
+      }
+  </script>
+  
+
+  <header class="header">
+  <div class="logo">
+    <a title="Accueil" href="/hc/fr">
+      <img src="//theme.zdassets.com/theme_assets/301558/e9a31068cb474e257d66dedf29675536ad5226d7.png" alt="Logo">
+    </a>
+  </div>
+  <div class="nav-wrapper">
+    <span class="icon-menu"></span>
+    <nav class="user-nav" id="user-nav">
+      <a href="/hc/fr/community/topics">Communaut�</a>
+      <a class="submit-a-request" href="/hc/fr/requests/new">Envoyer une demande</a>
+    </nav>
+      <a class="login" data-auth-action="signin" role="button" rel="nofollow" title="Ouvre une bo�te de dialogue" href="/hc/fr/signin?return_to=https%3A%2F%2Fsupport.teachonmars.com%2Fhc%2Ffr&amp;locale=fr">Connexion</a>
+
+  </div>
+</header>
+
+
+  <main role="main">
+    <section class="section hero">
+  <div class="hero-inner">
+    <form role="search" class="search search-full" data-search="" data-instant="true" autocomplete="off" action="/hc/fr/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Recherche" autocomplete="off" aria-label="Recherche" /></form>
+  </div>
+</section>
+
+<div class="container">
+  <section class="section knowledge-base">
+          <h2>Centre d'aide</h2>
+    <p class="section-subtitle">Vous avez une question ? La r�ponse n'est sans doute pas loin !</p>
+    <section class="categories blocks">
+      <ul class="blocks-list">
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002598932-Premiers-pas' class="blocks-item-link">
+                <h4 class="blocks-item-title">Premiers pas</h4>
+                <p class="blocks-item-description">Teach on Mars, c&#39;est tout nouveau pour vous ? Venez d�couvrir le Mission Center et l&#39;App dans leurs grandes lignes.</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002615771-G%C3%A9rer-ses-cat%C3%A9gories' class="blocks-item-link">
+                <h4 class="blocks-item-title">G�rer ses cat�gories</h4>
+                <p class="blocks-item-description">D�couvrez comment structurer votre Mission Center. Les cat�gories n&#39;auront plus de secrets pour vous !</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002598992-Cr%C3%A9er-ses-formations' class="blocks-item-link">
+                <h4 class="blocks-item-title">Cr�er ses formations</h4>
+                <p class="blocks-item-description">D�couvrez comment cr�er ou importer une formation, l&#39;�diter, la tester, la publier, la traduire, la mettre � jour, etc.</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002615791-G%C3%A9rer-ses-apprenants' class="blocks-item-link">
+                <h4 class="blocks-item-title">G�rer ses apprenants</h4>
+                <p class="blocks-item-description">Tout sur les apprenants : les importer, les g�rer, utiliser les filtres et les champs personnalis�s</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002599012-Communiquer-avec-ses-apprenants' class="blocks-item-link">
+                <h4 class="blocks-item-title">Communiquer avec ses apprenants</h4>
+                <p class="blocks-item-description">Parlez avec vos apprenants ! Ma�trisez les messages, le flux d&#39;actualit�s et les notifications push.</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002615811-G%C3%A9rer-ses-managers' class="blocks-item-link">
+                <h4 class="blocks-item-title">G�rer ses managers</h4>
+                <p class="blocks-item-description">Tout sur les managers (administrateurs) : les importer, les g�rer.</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002599032-Les-options-de-votre-application' class="blocks-item-link">
+                <h4 class="blocks-item-title">Les options de votre application</h4>
+                <p class="blocks-item-description">Comment pouvoir am�liorer son App et offrir davantage d&#39;options, c&#39;est par ici !</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002599052-Int%C3%A9gration' class="blocks-item-link">
+                <h4 class="blocks-item-title">Int�gration</h4>
+                <p class="blocks-item-description">Votre question contient-elle des mots compliqu�s qu&#39;un responsable RH ne comprendrait pas ? Et bien, entrez !</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/360002631711-Exploitation-L%C3%A9gal' class="blocks-item-link">
+                <h4 class="blocks-item-title">Exploitation &amp; L�gal</h4>
+                <p class="blocks-item-description">Tout savoir sur l&#39;exploitation et le l�gal</p>
+              </a>
+            </li>
+          
+        
+          
+            <li class="blocks-item">
+              <a href='/hc/fr/categories/115000483986-Historique-des-versions' class="blocks-item-link">
+                <h4 class="blocks-item-title">Historique des versions</h4>
+                <p class="blocks-item-description">Quoi de neuf dans la derni�re version de l&#39;App ? Et dans celle d&#39;avant ? Et dans celle d&#39;encore avant ? C&#39;est par l� !</p>
+              </a>
+            </li>
+          
+        
+      </ul>
+      
+    </section>
+
+    
+  </section>
+
+  
+    <section class="section community">
+      <h2>Communaut�</h2>
+      <a class="community-link" href="/hc/fr/community/topics">
+        Joignez-vous � la conversation
+      </a>
+
+      <div class="community-image"></div>
+    </section>
+  
+  
+  <section class="section activity">
+    <div data-app="recent-activity" data-url="/hc/api/internal/recent_activities?locale=fr"></div>
+  </section>
+    <section class="">
+      <p style="text-align:center"><a style="color:#E10600" href="https://www.teachonmars.com/">Teach on Mars</a><br/>More learning moments. Better future.</p>
+  </section>
+</div>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <a title="Accueil" href="/hc/fr">Centre d�aide de la plateforme mobile learning Teach on Mars</a>
+
+    <div class="footer-language-selector">
+      
+        <div class="dropdown language-selector" aria-haspopup="true">
+          <a class="dropdown-toggle">
+            Fran�ais
+          </a>
+          <span class="dropdown-menu dropdown-menu-end" role="menu">
+            
+              <a href="/hc/change_language/en-us?return_to=%2Fhc%2Fen-us" dir="ltr" rel="nofollow" role="menuitem">
+                English (US)
+              </a>
+            
+          </span>
+        </div>
+      
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/fr.0ece0c1f1f3cc86ce793.js"></script>
+  <script src="https://teachonmars.zendesk.com/auth/v2/host.js" data-brand-id="2757126" data-return-to="https://support.teachonmars.com/hc/fr" data-theme="hc" data-locale="fr" data-auth-origin="2757126,true,true"></script>
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"teachonmars","environment":"production","name":"Teach on Mars"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"fr","csrf_token":null,"shared_csrf_token":null},"settings":{},"usage_tracking":{"event":"front_page_viewed","data":"BAh7BjoKX21ldGF7CzoPYWNjb3VudF9pZGkD9pkEOhNoZWxwX2NlbnRlcl9pZGkEsb7tCzoNYnJhbmRfaWRpAwYSKjoMdXNlcl9pZDA6E3VzZXJfcm9sZV9uYW1lSSIOQU5PTllNT1VTBjoGRVQ6C2xvY2FsZUkiB2ZyBjsLVA==--4d6bfb85e491d840d742415534726d6a51495be5","url":"https://support.teachonmars.com/hc/tracking/events?locale=fr"},"current_record_id":null,"current_record_url":null,"current_record_title":null,"search_results_count":null,"current_text_direction":"ltr","current_brand":{"account_id":301558,"brand_id":2757126,"brand_url":"https://support.teachonmars.com","url":"https://teachonmars.zendesk.com/api/v2/brands/2757126.json","name":"Teach on Mars","logo":"","subdomain":"teachonmars","host_mapping":"support.teachonmars.com","help_center_state":"enabled","ticket_form_ids":null,"active":true,"default":true,"has_help_center":true,"created_at":"2014-05-02T13:18:32Z","updated_at":"2019-04-23T13:18:31Z","id":2757126,"route_id":354967},"current_brand_url":"https://teachonmars.zendesk.com","current_host_mapping":"support.teachonmars.com","current_path":null,"authentication_domain":"https://teachonmars.zendesk.com","show_autocomplete_breadcrumbs":true,"rollbar_config":{"enabled":true,"endpoint":"https://rollbar-us.zendesk.com/api/1/item/","accessToken":"731a5a953e9a4b7ab6cac9623f50c732","captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production","client":{"javascript":{"source_map_enabled":true,"code_version":"162dfe8840c557fba5bc194c40bc9298d059130f","guess_uncaught_frames":true}}}},"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":true,"has_anonymous_kb_voting":false,"has_multi_language_help_center":true,"mobile_device":false,"mobile_site_enabled":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","manage_content_url":"https://support.teachonmars.com/hc/fr","arrange_content_url":"https://support.teachonmars.com/hc/admin/arrange_contents?locale=fr","general_settings_url":"https://support.teachonmars.com/hc/admin/general_settings?locale=fr","user_segments_url":"https://teachonmars.zendesk.com/knowledge/user_segments?brand_id=2757126","has_community_enabled":true,"has_community_badges":false,"has_user_segments":true,"has_answer_bot_web_form_enabled":false,"has_answer_bot_web_form_modal_v2":false,"billing_url":"/access/return_to?return_to=https://teachonmars.zendesk.com/admin/billing/subscription","has_answer_bot":true,"has_block_answer_bot_embeddable":false,"answer_bot_management_url":"/access/return_to?return_to=https://teachonmars.zendesk.com/agent/admin/answer_bot","is_account_owner":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd807091-preview","is_preview":false,"has_guide_user_segments_search":true,"has_alternate_templates":false,"arrange_articles_url":"https://teachonmars.zendesk.com/knowledge/arrange?brand_id=2757126","article_verification_url":"https://teachonmars.zendesk.com/knowledge/verification?brand_id=2757126","has_article_verification":false,"guide_language_settings_url":"https://support.teachonmars.com/hc/admin/language_settings?locale=fr","docs_importer_url":"https://teachonmars.zendesk.com/knowledge/import_articles?brand_id=2757126","community_badges_url":"https://teachonmars.zendesk.com/knowledge/community_badges?brand_id=2757126","community_settings_url":"https://teachonmars.zendesk.com/knowledge/community_settings?brand_id=2757126","gather_plan_state":"subscribed","search_settings_url":"https://teachonmars.zendesk.com/knowledge/search_settings?brand_id=2757126","has_multibrand_search_in_plan":false,"theming_api_version":1,"has_pci_credit_card_custom_field":false,"current_brand_id":2757126,"help_center_restricted":false,"current_brand_active":true,"is_assuming_someone_else":false,"flash_messages":[]};
+</script>
+
+  <script src="//static.zdassets.com/hc/assets/moment-f6f8513da6ab17eadada59a1a4edb536.js"></script>
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-5c78f71949352be01274396c4ec789b5.js"></script>
+  
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'5f3203e06cb7e920',m:'ab689d0e28e68a5cd89e908a8620369ac0fd1155-1605538130-1800-ASkV9qNP+tLSy4o4htmKAnED0B9Rlk+zjYo1FEBx70ASs4yOVeIsv7ZjCD3W+mZ3NQlE8BPankuaSO6jIs53G6WuoinBRdBEoSTIEWHon3bN7RtFGB43VIOFUopmhlFB8w==',s:[0x187396b886,0x5b2928785a],}})();</script></body>
+</html>
